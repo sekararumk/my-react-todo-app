@@ -58,3 +58,11 @@ body {
   .mark-all-done {
     margin-top: 10px;
   }
+  
+  .form-control {
+    border-radius: 0;
+  }
+  
+  .add-todo {
+    margin: 10px 0px;
+  }
