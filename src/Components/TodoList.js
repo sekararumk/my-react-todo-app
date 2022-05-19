@@ -12,7 +12,7 @@ const ToDoList = (props) => {
               <TodoItem item={item} key={index} />
             ))}
           </ul>
-          <Footer items={props.items} />
+          <Footer count={props.items.length} />
         </div>  
   )
 }
