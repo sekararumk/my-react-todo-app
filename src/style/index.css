@@ -66,3 +66,19 @@ body {
   .add-todo {
     margin: 10px 0px;
   }
+
+  .page-controller {
+    /* buat class ini menjadi sebuah flexbox dengan konten rata tengah baik secara horizontal & vertikal */
+    /* berikan margin vertikal 20px dan margin horizontal 0 */
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin: 20px 0;
+  }
+  
+  .page-btn {
+    border: 0;
+    background: #333333;
+    color: #ffffff;
+    margin: 0 15px;
+  }
